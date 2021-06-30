@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de tu empresa</title>
+    <link rel="preload" href="/css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Carga la hoja de estilos más rápido -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Nombre de tu empresa <span>Desarrollo</span></h1>
+    </header>
+    <div class="nav-background">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Contactos</a>
+        </nav>
+    </div>
+    <section class="portada">
+        <div class="contenido-portada">
+            <h2>Venta y Mantenimiento</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="18" y2="6.01" />
+                    <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                    <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                    <line x1="9" y1="4" x2="9" y2="17" />
+                    <line x1="15" y1="15" x2="15" y2="20" />
+                    </svg>
+                    <p>Locación</p>
+            </div> 
+            <a class="boton" href="#">Contacto</a>
+        </div> <!-- .contenido-portada -->
+    </section>
+    <main class="contenedor sombra">
+        <h2>Mis servicios</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Venta de articulos</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <polyline points="7 8 3 12 7 16" />
+                        <polyline points="17 8 21 12 17 16" />
+                        <line x1="14" y1="4" x2="10" y2="20" />
+                          </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corporis, 
+                porro minus praesentium commodi quia reprehenderit fugit quasi recusandae 
+                reiciendis</p>
+            </section>
+            <section class="servicio">
+                <h3>Mantenimiento</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-access-point" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="12" y1="12" x2="12" y2="12.01" />
+                        <path d="M14.828 9.172a4 4 0 0 1 0 5.656" />
+                        <path d="M17.657 6.343a8 8 0 0 1 0 11.314" />
+                        <path d="M9.168 14.828a4 4 0 0 1 0 -5.656" />
+                        <path d="M6.337 17.657a8 8 0 0 1 0 -11.314" />
+                          </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corporis, 
+                porro minus praesentium commodi quia reprehenderit fugit quasi recusandae 
+                reiciendis</p>
+            </section>
+            <section class="servicio">
+                <h3>Asesoramiento</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sticker" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 12l-2 .5a6 6 0 0 1 -6.5 -6.5l.5 -2l8 8" />
+                        <path d="M20 12a8 8 0 1 1 -8 -8" />
+                          </svg> 
+                </div>   
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corporis, 
+                porro minus praesentium commodi quia reprehenderit fugit quasi recusandae 
+                reiciendis</p>
+            </section>
+        </div> <!-- .servicios --> 
+        <section>
+            <h2>Contacto</h2>
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>Contactanos llenando los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" placeholder="Nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="">Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Telefono">
+                        </div>
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input class="input-text" type="email" placeholder="E-mail">
+                        </div>
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>    
+        </section>       
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
